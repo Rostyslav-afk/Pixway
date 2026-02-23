@@ -6,5 +6,5 @@ const earthContext = earthCanvas.getContext('2d') as CanvasRenderingContext2D;
 
 earthCanvas.width = window.innerWidth;
 earthCanvas.height = window.innerHeight;
-earthContext.fillStyle = '#CBFBF1';
+earthContext.fillStyle = '#CBFBF1'; //Background color of every map
 earthContext.fillRect(0, 0, earthCanvas.width, earthCanvas.height);
